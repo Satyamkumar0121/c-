@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.cantaner{
+    height: 100%;
+    width: 100%;
+    background-color:black;
+}
+
+.cantaner .nav
+{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+    background-color: rgba(106, 105, 105, 0.219);
+}
+
+.cantaner .nav .logo
+{
+    color: white;
+    font-size: 2vw;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 5vw;
+
+    span{
+        color: red;
+    }
+
+}
+
+.cantaner .nav .login
+{
+    margin-right: 5vw;
+    button[type="login"]
+    {
+        background-color: red;
+        color: white;
+        font-weight: 600;
+        padding: 1vh 1.5vw;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+
+    }
+
+    button[type="Sign-Up"]
+    {
+        background-color:blue;
+        color: white;
+        font-weight: 600;
+        padding: 1vh 1.5vw;
+        border-radius: 10px;
+        border: none;
+        margin-left: 1vw;
+        cursor: pointer;
+    }
+}
+
+.cantaner .banner {
+    height:80vh;
+    width: 100%;
+    margin-top:5vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.cantaner .banner .first_banner
+{
+    height:100%;
+    width: 60%;
+
+.text{
+    margin-left: 5vw;
+    margin-top: 5vh;
+    h1{
+        color:white ;
+         font-size: 5vw;
+         font-weight:700;
+    }
+}
+
+}
+.cantaner .banner .first_banner .text
+{
+    p{
+        color: rgb(133, 130, 130);
+        margin-top: 5vh;
+        font-size: 1.5vw;
+
+    }
+
+    .button{
+        width: 11vw;
+        margin-top: 5vh;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        gap: 15px;
+        background-color: red;
+        font-weight: 600;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
+        text-transform: capitalize;
+        i{
+            color: white;
+            font-size: 1.3rem;
+        }
+    }
+
+    .view{
+        display:flex;
+        flex-direction:row;
+        margin-top: 2vh;
+        
+    }
+.vid{
+    
+    margin-top: 5vh;
+    color: white;
+    padding: 1.5vh 1.5vw;
+    font-weight: 600;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2vw;
+    align-items: center;
+    cursor: pointer;
+    gap: 10px;
+
+    i{
+        color:red;
+        font-size: 2vw;
+    }
+}
+
+}
+
+.cantaner .banner .first_banner .text .review{
+  font-size: 1vw;
+  height: 20vh;
+  width: 60%;
+  margin-left: 3vw;
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  img{
+    height: 20vh;
+    width: 10vw;
+    border-radius: 10px;
+    border-color: gray;
+    border-width:2px;
+    border-style: solid;
+  }
+
+}
+
+.cantaner .banner .second_banner
+{
+    height: 100%;
+    width: 40%;
+
+    .img-boy{
+        height: 100%;
+        width: 100%;
+
+        img{
+            height: 100%;
+        width: 100%;
+        object-fit: contain;
+        }
+    }
+    
+}
+
+
+.cantaner .about{
+    min-height:100%;
+    width:100%;
+    padding-top:15vh;
+    padding-left: 5vw;
+    background-color: black;
+    color:white;
+    span{
+        color: red;
+    }     
+}
+
+
+.cantaner p{
+    color:rgb(80, 78, 78);
+    font-size:1.2vw;
+    display: flex;
+    flex-direction:column;
+}
+
+.cantaner .rating{
+
+    ul{
+        display: flex;
+        flex-direction:row;
+
+        li{
+            padding-inline: 1vw;
+            text-decoration:none;
+            text-decoration: none;
+            list-style: none;
+
+            h3{
+                font-size:1vw;
+            }
+        }
+    }
+
+}
+
+.cantaner .video
+{
+    height: 45vh;
+    width: 50%;
+    background-color: white;
+    margin-top: 8vh;
+    border-radius: 10px;
+    .real-video{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+}
